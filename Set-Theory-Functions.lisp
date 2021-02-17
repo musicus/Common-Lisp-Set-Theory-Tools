@@ -6,7 +6,14 @@
 
 ; ----- flesh out later ----- ;
 (defparameter *named-chords*
-  '(((0 2 7) 'quintal-quartal)
+  '(((0 1 2) 'chromatic)
+  	((0 1 3) 'phrygian)
+  	((0 1 4) 'chord-of-the-split-third)
+  	((0 1 6) 'viennese)
+  	((0 2 4) 'do-re-mi)
+  	((0 2 5) 'minor-seventh-omit-five)
+  	((0 2 6) 'dominant-seventh-omit-five)
+  	((0 2 7) 'quintal-quartal)
     ((0 3 6) 'diminished)
     ((0 3 7) 'minor)
     ((0 4 7) 'major)
